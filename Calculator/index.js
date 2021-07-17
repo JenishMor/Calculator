@@ -1,5 +1,3 @@
-console.log('This is js file of project 8');
-
 let display = document.getElementById('display');
 let buttons = document.querySelectorAll('button');
 
@@ -15,7 +13,7 @@ for (let item of buttons) {
             display.value = displayValue;
         }
         else if (buttonValue == '=') {
-            display.value = eval(displayValue);     //eval is js function which evaluate any term
+            display.value = eval(displayValue);    
         }
         else {
             displayValue += buttonValue;
